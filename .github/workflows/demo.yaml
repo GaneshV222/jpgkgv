@@ -1,0 +1,12 @@
+name : Demo
+
+on:
+  pull_request:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a script
+        run: echo "Hello, this is a demo workflow!"
